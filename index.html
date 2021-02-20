@@ -10,6 +10,9 @@
     <script src="https://kit.fontawesome.com/fa800e5f92.js" crossorigin="anonymous"></script>
 </head>
 
+
+<!--Cabecera-->
+
 <body style="background-color: rgb(196, 195, 195);">
     <div class="container-fluid">
         <div class="row" style="background-color: rgb(228, 225, 225); border: grey;">
@@ -43,8 +46,27 @@
         </div>
 
 
+        <!--nav para vista de fotos-->
         <div class="container-fluid">
-            <div class="row" style="background-color: white;">
+            <div style="background-color: white;">
+                <div class="container-fluid">
+                    <div class="row nav nav-tabs" id="myTab" role="tablist">
+                        <div class="col p-4 nav-item" role="presentation">
+                            <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile"
+                                type="button" role="tab" aria-controls="profile" aria-selected="false">Profile</button>
+                        </div>
+                        <div class="col p-4 nav-item" role="presentation">
+                            <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact"
+                                type="button" role="tab" aria-controls="contact" aria-selected="false">Contact</button>
+                        </div>
+                    </div>
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">...
+                        </div>
+                        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
+                        <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
+                    </div>
+                </div>
                 <div class="col text-end p-4"><a href="./index3.html" class="btn btn-outline-secondary"><i
                             class="fas fa-stop" size:2x></i></a></div>
                 <div class="col p-4"><a href="./index2.html" class="btn btn-outline-secondary"><i
